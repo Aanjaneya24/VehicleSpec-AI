@@ -2,6 +2,8 @@
 
 VehicleSpec AI is a traceable Retrieval-Augmented Generation (RAG) system engineered to extract documented automotive specifications from workshop service manuals. The system pairs hybrid dense/sparse passage retrieval with LLM extraction and deterministic grounding validation. To prevent hallucinations, the system strictly abstains when the indexed manual lacks verifiable evidence for a requested specification.
 
+![VehicleSpec AI User Interface](assets/ui_screenshot.png)
+
 ---
 
 ## 1. Project Overview & Problem Statement
@@ -96,8 +98,8 @@ When an index is built, artifacts are stored in `artifacts/`:
 Clone the repository and initialize the virtual environment:
 
 ```bash
-git clone <repository-url>
-cd "Vehicle Specification Extraction System"
+git clone https://github.com/Aanjaneya24/VehicleSpec-AI.git
+cd VehicleSpec-AI
 
 # Create and activate virtual environment
 python3 -m venv .venv
@@ -275,6 +277,8 @@ Vehicle Specification Extraction System/
 ├── build_index.py             # CLI script to ingest PDF and generate FAISS index
 ├── evaluate_retrieval.py      # CLI script to evaluate Hit@K and MRR retrieval metrics
 ├── requirements.txt           # Production and test Python dependencies
+├── assets/
+│   └── ui_screenshot.png      # Application user interface screenshot
 ├── evaluation/
 │   └── manual_verified_cases.json  # Ground-truth benchmark cases from 2014 Ford manual
 ├── src/
