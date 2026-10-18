@@ -7,3 +7,4 @@ data/*.pdf
 artifacts/*.faiss
 artifacts/*.jsonl
 artifacts/index_manifest.json
+VehicleSpec_AI_Submission.zip
