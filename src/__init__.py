@@ -1,0 +1,2 @@
+"""Vehicle specification extraction pipeline."""
+

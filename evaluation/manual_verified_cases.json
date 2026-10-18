@@ -1,0 +1,33 @@
+{
+  "description": "Labels below were manually transcribed from the supplied 2014 Ford F-150 Workshop Manual after direct PDF inspection on 2026-10-17. PDF page means the one-based page index of data/manual.pdf.",
+  "cases": [
+    {
+      "id": "front-brake-guide-pin-torque",
+      "question": "What is the torque specification for the front brake caliper guide pin bolts?",
+      "verification_status": "verified",
+      "expected_not_found": false,
+      "expected_results": [{"component": "Brake caliper guide pin bolts", "spec_type": "Torque", "value": "37", "unit": "Nm", "source": "manual.pdf", "page": 636, "section": "SECTION 206-03: Front Disc Brake", "evidence": "Brake caliper guide pin bolts 37 27"}]
+    },
+    {
+      "id": "front-disc-brake-fluid-capacity",
+      "question": "What is the specified brake fluid capacity for the front disc brake?",
+      "verification_status": "verified",
+      "expected_not_found": false,
+      "expected_results": [{"component": "High Performance DOT 3 Motor Vehicle Brake Fluid", "spec_type": "Fill Capacity", "value": "1,420", "unit": "ml (3 pt)", "source": "manual.pdf", "page": 636, "section": "SECTION 206-03: Front Disc Brake", "evidence": "High Performance DOT 3 Motor Vehicle Brake Fluid PM-1-C (US); CPM-1-C (Canada) WSS-M6C62-A or WSS-M6C65-A1 1,420 ml (3 pt)"}]
+    },
+    {
+      "id": "tpm-module-part-number",
+      "question": "What is the part number for the tire pressure monitoring system module?",
+      "verification_status": "verified",
+      "expected_not_found": false,
+      "expected_results": [{"component": "Tire Pressure Monitoring System (TPMS) module", "spec_type": "Part number", "value": "15K602", "unit": "", "source": "manual.pdf", "page": 194, "section": "SECTION 204-04: Wheels and Tires", "evidence": "15K602 Tire Pressure Monitoring System (TPMS) module"}]
+    },
+    {
+      "id": "unsupported-flux-capacitor",
+      "question": "What is the torque specification for the flux capacitor?",
+      "verification_status": "verified",
+      "expected_not_found": true,
+      "expected_results": []
+    }
+  ]
+}
